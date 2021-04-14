@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    tools:context="com.example.bkpm_intent.ExpIntentApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/textView"
+        android:text="Siapa Kamu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saya"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editnama"
+        android:layout_alignButtom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editnama"
+        android:layout_marginTop="26"
+        android:id="@+id/btn_send"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"/>
+
+</LinearLayout>
